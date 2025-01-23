@@ -46,6 +46,7 @@ export const ShortTextInput = (props: ShortTextInputProps) => {
       disabled={props.disabled}
       style={{
         'font-size': props.fontSize ? `${props.fontSize}px` : '16px',
+        'font-family': 'system-ui, -apple-system, sans-serif',
         resize: 'none',
         height: `${props.value !== '' ? height() : DEFAULT_HEIGHT}px`,
       }}
